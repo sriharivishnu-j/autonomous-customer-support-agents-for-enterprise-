@@ -1,0 +1,1 @@
+import React from 'react'; const App = () => { return (<div>Autonomous Customer Support Agent</div>); }; export default App;
