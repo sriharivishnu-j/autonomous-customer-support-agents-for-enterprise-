@@ -1,0 +1,1 @@
+FROM golang:1.20 AS builder; WORKDIR /app; COPY . .; RUN go build -o main .; FROM alpine:3.15; COPY --from=builder /app/main /main; CMD ["/main"];
