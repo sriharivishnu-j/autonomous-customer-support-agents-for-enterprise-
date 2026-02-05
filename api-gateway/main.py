@@ -1,0 +1,1 @@
+from fastapi import FastAPI, Depends; from routers import auth, support; app = FastAPI(); app.include_router(auth.router); app.include_router(support.router);
