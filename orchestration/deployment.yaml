@@ -1,0 +1,1 @@
+apiVersion: apps/v1; kind: Deployment; metadata: name: support-agent; spec: replicas: 3; template: spec: containers: - name: support-agent image: support-agent-image;
