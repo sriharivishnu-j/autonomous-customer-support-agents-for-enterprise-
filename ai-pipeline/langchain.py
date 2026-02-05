@@ -1,0 +1,1 @@
+from langchain_core import LangChain; def process_query(query): # Integrate with Anthropic Claude and Pinecone return LangChain().run(query);
