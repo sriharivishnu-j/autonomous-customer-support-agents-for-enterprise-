@@ -1,0 +1,1 @@
+from fastapi import APIRouter; router = APIRouter(); @router.get('/support') async def get_support(): return {'message': 'Support route'};
