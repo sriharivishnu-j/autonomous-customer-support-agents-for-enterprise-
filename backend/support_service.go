@@ -1,0 +1,1 @@
+package main; import "github.com/gin-gonic/gin"; func SupportHandler(c *gin.Context) { c.JSON(200, gin.H{"message": "Support service"}); }
